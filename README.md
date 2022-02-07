@@ -5,7 +5,14 @@
 1.กด + บนมุมขวามือ เลือก New reposity
 
 2.ตั้งชื่อไฟล์ และ description เกียวกับ repo ที่สร้าง
+
 3.กดเลือก Public
+
 4.กดเลือก lnitialize this repository with a README
+
 5.กด Create repository
+
 #Basic writing
+1. Headings ใช้ #
+
+2.Styling taxt ใช้ **ตัวหนา**   *ตัวเอียง* 
