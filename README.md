@@ -63,9 +63,9 @@
 # ESP01 
 มีทั้งหมด 6 การทดลอง
 # 01
--นำ microcontroller มาเชื่อมต่อกับ USB เพื่อเขียนโปรแกรม
--เปิดโปรแกรม 01_serial-Moniter
--อัปโหลดโปรแกรมเขียนโค้ด pio run -t upload
+- นำ microcontroller มาเชื่อมต่อกับ USB เพื่อเขียนโปรแกรม
+- เปิดโปรแกรม 01_serial-Moniter
+- อัปโหลดโปรแกรมเขียนโค้ด pio run -t upload
 -กดปุ่มสีดำที่microcontroller เพื่ออัปโหลด
 -กดปุ่มสีแดงเพื่อ reset
 -ดูผลลัพธ์จากโค้ด pio device moniter
