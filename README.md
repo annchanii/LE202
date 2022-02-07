@@ -26,8 +26,8 @@
 ## list
 - john
 - jenny
- - jim
-  -sam
+  - jim
+    -sam
 
 ## Emoji
 : emojocode :
