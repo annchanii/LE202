@@ -66,34 +66,52 @@
 - นำ microcontroller มาเชื่อมต่อกับ USB เพื่อเขียนโปรแกรม
 - เปิดโปรแกรม 01_serial-Moniter
 - อัปโหลดโปรแกรมเขียนโค้ด pio run -t upload
--กดปุ่มสีดำที่microcontroller เพื่ออัปโหลด
--กดปุ่มสีแดงเพื่อ reset
--ดูผลลัพธ์จากโค้ด pio device moniter
+- กดปุ่มสีดำที่microcontroller เพื่ออัปโหลด
+- กดปุ่มสีแดงเพื่อ reset
+- ดูผลลัพธ์จากโค้ด pio device moniter
 
 # 02
--โปรแกรมแสกนหา wifi 
--อัปโหลดโปรแกรมเขียนโค้ด pio run -t upload
--กดปุ่มสีดำที่microcontroller เพื่ออัปโหลด
--กดปุ่มสีแดงเพื่อ reset
--ดูผลลัพธ์จากโค้ด pio device moniter
+- โปรแกรมแสกนหา wifi 
+- อัปโหลดโปรแกรมเขียนโค้ด pio run -t upload
+- กดปุ่มสีดำที่microcontroller เพื่ออัปโหลด
+- กดปุ่มสีแดงเพื่อ reset
+- ดูผลลัพธ์จากโค้ด pio device moniter
 
 #03
--โปรแกรมทดลองสัญญาณที่ output ออกไปภายนอก
--ใช้ adapter เสียบระหว่าง USB กับ microcontroller โดยสัญญาณ0อยู่ที่สายสีขาว และ 1อยู่ที่สายสีเหลือง
--เปิดโปรแกรม 03_output-port
--อัปโหลดโปรแกรมเขียนโค้ด pio run -t upload
--กดปุ่มสีดำที่microcontroller เพื่ออัปโหลด
--กดปุ่มสีแดงเพื่อ reset
--ดูผลลัพธ์จากโค้ด pio device moniter และก็จะมีไฟเปล่งแสงที่สัญญาณ 0
+- โปรแกรมทดลองสัญญาณที่ output ออกไปภายนอก
+- ใช้ adapter เสียบระหว่าง USB กับ microcontroller โดยสัญญาณ0อยู่ที่สายสีขาว และ 1อยู่ที่สายสีเหลือง
+- เปิดโปรแกรม 03_output-port
+- อัปโหลดโปรแกรมเขียนโค้ด pio run -t upload
+- กดปุ่มสีดำที่microcontroller เพื่ออัปโหลด
+- กดปุ่มสีแดงเพื่อ reset
+- ดูผลลัพธ์จากโค้ด pio device moniter และก็จะมีไฟเปล่งแสงที่สัญญาณ 0
 
 # 04
--โปรแกรมทดลองนำสัญญาณ input เข้ามาใน microcontroller
--เปิดโปรแกรม 04_input-port
--อัปโหลดโปรแกรมเขียนโค้ด pio run -t upload
--กดปุ่มสีดำที่microcontroller เพื่ออัปโหลด
--กดปุ่มสีแดงเพื่อ reset
--ดูผลลัพธ์จากโค้ด pio device monite
--ต่อมา นำLDR กับ resistor มาต่อกับ microcontroller
--จะเห็นผลลัพธ์เป็น เมื่อมีแสงส่องLDR สัญญาณเป็น 0=ไฟติด และเมื่อไม่มีแสงส่องLDR สัญญาณเป็น 1=ไฟไม่ติด
+- โปรแกรมทดลองนำสัญญาณ input เข้ามาใน microcontroller
+- เปิดโปรแกรม 04_input-port
+- อัปโหลดโปรแกรมเขียนโค้ด pio run -t upload
+- กดปุ่มสีดำที่microcontroller เพื่ออัปโหลด
+- กดปุ่มสีแดงเพื่อ reset
+- ดูผลลัพธ์จากโค้ด pio device monite
+- ต่อมา นำLDR กับ resistor มาต่อกับ microcontroller
+- จะเห็นผลลัพธ์เป็น เมื่อมีแสงส่องLDR สัญญาณเป็น 0=ไฟติด และเมื่อไม่มีแสงส่องLDR สัญญาณเป็น 1=ไฟไม่ติด
+
+# 05
+- โปรแกรมสร้าง Web server ผ่าน wifi
+- เปิดโปรแกรม 05_WiFi-web-server
+- อัปโหลดโปรแกรมเขียนโค้ด pio run -t upload
+- กดปุ่มสีดำที่microcontroller เพื่ออัปโหลด
+- กดปุ่มสีแดงเพื่อ reset
+- ดูผลการรันจากโค้ด pio device monite
+- เช็คผลลัพธ์ได้จาก Web browser
+
+# 06
+- โปนแกรมร้าง wifi ขึ้นมาเอง
+- เปิดโปรแกรม 06_WiFi-AP-Web-Server
+- อัปโหลดโปรแกรมเขียนโค้ด pio run -t upload
+- กดปุ่มสีดำที่microcontroller เพื่ออัปโหลด
+- กดปุ่มสีแดงเพื่อ reset
+- ดูผลการรันจากโค้ด pio device monite
+- เช็คผลลัพธ์จาก ค้นหา wifi ในโทรศัพท์
 
 
