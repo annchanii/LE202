@@ -11,7 +11,6 @@
 4.กดเลือก lnitialize this repository with a README
 
 5.กด Create repository
-
 #Basic writing
 ##1.Headings ใช้ #
 
