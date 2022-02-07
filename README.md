@@ -13,6 +13,8 @@
 5.กด Create repository
 
 #Basic writing
-1. Headings ใช้ #
+##1.Headings ใช้ #
 
-2.Styling taxt ใช้ **ตัวหนา**   *ตัวเอียง* 
+##2.Styling taxt ใช้  **ตัวหนา**   *ตัวเอียง* 
+
+##3.Link ใช้
