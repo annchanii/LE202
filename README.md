@@ -32,3 +32,12 @@
 ## Emoji
 : emojocode :
 👍 🧑‍🚀
+
+# Web hosting
+1.สร้าง repo
+
+2.กด setting แล้วไปที่ github pages
+
+3.github pages > source > master branch >save
+
+4.นำ URL ไปใช้ได้เลย
