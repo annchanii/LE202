@@ -11,9 +11,24 @@
 4.กดเลือก lnitialize this repository with a README
 
 5.กด Create repository
-#Basic writing
-##1.Headings ใช้ #
+# Basic writing
+## 1.Headings 
 
-##2.Styling taxt ใช้  **ตัวหนา**   *ตัวเอียง* 
+## 2.Styling taxt 
+ใช้  **ตัวหนา**   *ตัวเอียง* 
 
-##3.Link ใช้
+## 3.Link 
+ใช้ [ inline link ] (linl) และ commad + k
+
+## Images 
+ใช้ ![text](link)
+
+## list
+- john
+- jenny
+ - jim
+  -sam
+
+## Emoji
+: emojocode :
+👍 🧑‍🚀
