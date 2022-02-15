@@ -14,7 +14,10 @@ void loop()         ---> *วนลูปทุกๆ 300 mSec*
 
 {
 	cnt++;
+	
 	Serial.printf("A:%d\n",cnt);
+	
 	delay(300);
+	
 }
 
