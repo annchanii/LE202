@@ -56,3 +56,29 @@
 	}
 	Serial.println("\n\n");
     }
+ ## การทดลองที่ 3 เรื่อง การเขียนโปรแกรมเอาท์พุทสัญญาณดิจิทัล
+    
+    #include <Arduino.h>
+    #include <ESP8266WiFi.h>     ---> *ใช้microcontroller ESP8266*
+
+    int cnt = 0;                 --> *ประกาศตัวแปร cnt = 0*
+
+    void setup()                 --> *ส่วน set up*
+     {
+	Serial.begin(115200);
+	pinMode(0, OUTPUT);        ---> *ให้ 0 เป็น output*
+	Serial.println("\n\n\n");
+     }
+
+    void loop()           ---> *วนลูปทุกๆ 500 mSec*
+    {
+	cnt++;
+	if(cnt % 2) {
+		Serial.println("========== ON ===========");
+		digitalWrite(0, HIGH);
+	} else {
+		Serial.println("========== OFF ===========");
+		digitalWrite(0, LOW);
+	}
+	delay(500);
+    }
