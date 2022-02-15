@@ -8,6 +8,7 @@ void setup()      --> ส่วน set up
 	Serial.begin(115200);
 }
 
+
 void loop()         ---> วนลูปทุกๆ 300 mSec
 {
 	cnt++;
