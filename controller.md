@@ -24,7 +24,7 @@
 
 ## ชื่อ ESP8266
 - ราคา 280
-- ลิงค์ ESP Product Selector (espressif.com) 
+- ลิงค์ https://products.espressif.com/#/product-selector?names=ESP8266EX&filter=%7B%22Series%22%3A%5B%22ESP8266%22%5D%7D
 - ความเร็ว 80 MHz
 - หน่วยความจำ  160 KB
 - พอร์ทinput รับค่าจาก Sensor มาแปลงเป็นค่า Digital
