@@ -3,7 +3,7 @@
 
 https://www.python.org/
 
-## 2.เปิด command promot
+## 2.เปิด command prompt
 
 ![image](https://user-images.githubusercontent.com/98943701/154246973-cc9e812e-9f10-440f-82a8-abb5169b95e0.png)
 
