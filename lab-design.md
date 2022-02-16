@@ -22,10 +22,15 @@
 - ใส่sd card ลงในโมดูล DFPlayer mini
 - อัพโหลด code ลงบอร์ด
 
+![image](https://user-images.githubusercontent.com/98943701/154190941-baec10e7-a7bf-4ba0-9f02-fc66139b7b37.png)
+
+![image](https://user-images.githubusercontent.com/98943701/154190958-6398c761-eb4c-4b92-873c-4e2123b06c99.png)
+
+
 ## สิ่งที่ต้องเรียนรู้
 - วิธีเชื่อมไมโครคอนโทรลเลอร์ ESP8266 กับ ไมโครคอนโทรลเลอร์ Arduio ให้เป็นวงจรเดียวกัน
 - วิธีเชื่อมไมโครโฟนลงในวงจร
 - วิธีเขียนโค้ดลงตัวบอร์ด
 
-![image](https://user-images.githubusercontent.com/98943701/154190889-75b78bbd-cabb-4d45-9290-4a4351dbd169.png)
+
 
