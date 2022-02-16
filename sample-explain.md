@@ -16,7 +16,7 @@
 
 	cnt++;
 	
-	Serial.printf("A:%d\n",cnt);
+	Serial.printf("A:%d\n",cnt);         ---แสดงค่าตัวแปร cnt
 	
 	delay(300);
 	
@@ -39,7 +39,7 @@
     void loop()                      ---> วนลูปทุกๆ 10 mSec
     {
 	Serial.println("========== เริ่มต้นแสกนหา Wifi ===========");    ---> แสดงข้อความค้นหาWiFi
-	int n = WiFi.scanNetworks();
+	int n = WiFi.scanNetworks();                                  ---> แสดงจำนวนเครือข่ายที่พบในรูป n
 	if(n == 0) {                                      ---> ถ้า n=0 แสดง no network found
 		Serial.println("NO NETWORK FOUND");
 	} else {
@@ -123,11 +123,11 @@
     int cnt = 0;             --> ประกาศตัวแปร cnt = 0
 
      void setup(void){              --> ส่วน set up ให้เชื่อมกับ WiFi
-	Serial.begin(115200);
+	Serial.begin(115200);                  ----> set เริ่มที่ความเร็ว 115200 B/s
 
 	WiFi.mode(WIFI_STA);
 	WiFi.begin(ssid, password);
-	while (WiFi.status() != WL_CONNECTED) {
+	while (WiFi.status() != WL_CONNECTED) {        ---> เชื่อมกับWiFiที่เราใส่ชื่อไว้
 		delay(500);
 		Serial.print(".");
 	}
@@ -161,16 +161,16 @@
     const char* ssid = "MY-ESP8266";           ---> กำหนดชื่อWiFi
     const char* password = "choompol";        ---> กำหนด password WiFi
 
-    IPAddress local_ip(192, 168, 1, 1);     ---> ใส่ IP address
-    IPAddress gateway(192, 168, 1, 1);
-    IPAddress subnet(255, 255, 255, 0);
+    IPAddress local_ip(192, 168, 1, 1);     ---> ใส่ IP address local_ip
+    IPAddress gateway(192, 168, 1, 1);       ---> ใส่ IP address gateway
+    IPAddress subnet(255, 255, 255, 0);      ---> ใส่ IP address subnet
 
     ESP8266WebServer server(80);
 
     int cnt = 0;                           --> ประกาศตัวแปร cnt = 0
 
     void setup(void){                      --> ส่วน set up ให้เชื่อมกับ WiFi
-	Serial.begin(115200);
+	Serial.begin(115200);              ----> set เริ่มที่ความเร็ว 115200 B/s
 
 	WiFi.softAP(ssid, password);          
 	WiFi.softAPConfig(local_ip, gateway, subnet);
