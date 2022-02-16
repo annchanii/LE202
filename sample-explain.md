@@ -1,7 +1,7 @@
 ## การทดลองที่1 การเขียนโปรแกรมเพื่อรันบนไมโครคอนโทรเลอร์
      #include <Arduino.h>   
 
-    int cnt = 0;                    <span style="color: green"> --> ประกาศตัวแปร cnt = 0 </span>
+    int cnt = 0;                     <font color="green"> Some green text </font>  --> ประกาศตัวแปร cnt = 0 
 
     void setup()                    --> ส่วน set up 
 
