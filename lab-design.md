@@ -27,4 +27,5 @@
 - วิธีเชื่อมไมโครโฟนลงในวงจร
 - วิธีเขียนโค้ดลงตัวบอร์ด
 
+![image](https://user-images.githubusercontent.com/98943701/154190889-75b78bbd-cabb-4d45-9290-4a4351dbd169.png)
 
