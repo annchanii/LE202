@@ -30,11 +30,11 @@
 - พอร์ทinput รับค่าจาก Sensor มาแปลงเป็นค่า Digital
 - พอร์ทoutout ส่งสัญญาณไปยังอุปกรณ์ หรือทริกเกอร์สัญญาณ
 
-## ชื่อ RISC-V
-- ราคา 
-- ลิงค์   
-- ความเร็ว 
-- หน่วยความจำ
+## ชื่อ WCH CH32V307 RISC-V
+- ราคา  360 บาท
+- ลิงค์   https://www.cnx-software.com/2022/01/21/wch-ch32v307-risc-v-development-board-features-8-uart-ports-controlled-over-ethernet/ 
+- ความเร็ว  144MHz
+- หน่วยความจำ 64KB
 - พอร์ทinput
 - พอร์ทoutout
 
