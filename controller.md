@@ -18,7 +18,7 @@
 - ราคา 230 บาท
 - ลิงค์   https://products.espressif.com/#/product-selector?names=ESP32-WROOM-DA-N4,ESP32-WROOM-32UE-H4&filter=%7B%22Series%22%3A%5B%22ESP32%22%5D%7D
 - ความเร็ว 240MHz
-- หน่วยความจำ
+- หน่วยความจำ 320 KB
 - พอร์ทinput 22 พอร์ท
 - พอร์ทoutout 16 พอร์ท
 
