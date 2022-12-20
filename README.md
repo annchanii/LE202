@@ -113,5 +113,11 @@
 - กดปุ่มสีแดงเพื่อ reset
 - ดูผลการรันจากโค้ด pio device monite
 - เช็คผลลัพธ์จาก ค้นหา wifi ในโทรศัพท์
+- ![สะสมแต้ม1](https://user-images.githubusercontent.com/98943701/208599387-b028c7d5-52d2-4b87-b819-2cfa6bbc1b6a.gif)
+![สะสมแต้ม1](https://user-images.githubusercontent.com/98943701/208601350-ff63fbfa-4c62-49e8-af8f-bb46e46815ec.gif)
+![สะสมแต้ม1](https://user-images.githubusercontent.com/98943701/208601461-e6b99126-5ee4-4601-b2c2-7c37c210462a.jpeg)
+![คำถามข้อ33](https://user-images.githubusercontent.com/98943701/208602208-10367a2a-6ac9-4ff8-87f0-8308f8a4e3f9.jpg)
+
+
 
 
